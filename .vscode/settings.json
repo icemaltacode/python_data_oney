@@ -1,0 +1,33 @@
+{
+  // The Python extension auto-detects the ".venv" folder in the workspace root
+  // and selects it on all platforms (".venv/bin/python" on macOS/Linux,
+  // ".venv\Scripts\python.exe" on Windows) once it exists — no path needed here.
+
+  // Activate the venv automatically in every new integrated terminal.
+  "python.terminal.activateEnvironment": true,
+
+  // Keep the file tree tidy for students.
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+
+  // The "____" fill-in-the-blank placeholders are undefined names, which
+  // Pylance flags with a yellow squiggle. Silence only that one rule so all
+  // other diagnostics still work.
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUndefinedVariable": "none"
+  },
+
+  // Status-bar button (via the "Commands" extension) that runs the currently
+  // highlighted lines in the persistent Python terminal, so setup state from
+  // earlier runs is kept.
+  "commands.commands": [
+    {
+      "command": "python.execSelectionInTerminal",
+      "text": "▶ Run Selection",
+      "tooltip": "Run highlighted lines in the Python terminal",
+      "alignment": "left"
+    }
+  ]
+}
