@@ -13,7 +13,7 @@ pandas has been imported as pd, and avocados is available.
 
 # region setup
 import pandas as pd
-avocados = pd.read_pickle('Module 8/data/avoplotto.pkl')
+avocados = pd.read_pickle('Module 3/data/avoplotto.pkl')
 # endregion
 
 # Import matplotlib.pyplot with alias plt

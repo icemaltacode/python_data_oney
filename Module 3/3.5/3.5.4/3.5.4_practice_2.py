@@ -11,7 +11,7 @@ exercise is available.
 
 # region setup
 import pandas as pd
-airline_bumping = pd.read_csv('Module 8/data/airline_bumping.csv')
+airline_bumping = pd.read_csv('Module 3/data/airline_bumping.csv')
 airline_totals = airline_bumping.groupby("airline")[["nb_bumped", "total_passengers"]].sum()
 airline_totals["bumps_per_10k"] = airline_totals["nb_bumped"] / airline_totals["total_passengers"] * 10000
 # endregion

@@ -21,7 +21,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.chart import ScatterChart, Reference, Series
 
-data = pd.read_csv("Module 4/data/baseball.csv")[["Name", "Height", "Weight", "Age"]]
+data = pd.read_csv("Module 1/data/baseball.csv")[["Name", "Height", "Weight", "Age"]]
 
 wb = Workbook()
 ws = wb.active

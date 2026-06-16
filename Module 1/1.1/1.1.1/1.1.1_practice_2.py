@@ -14,7 +14,7 @@ away (Source: stat.ucla.edu).
 
 # region setup
 import pandas as pd
-mlb = pd.read_csv("Module 4/data/baseball.csv")
+mlb = pd.read_csv("Module 1/data/baseball.csv")
 height_in = mlb['Height'].tolist()
 # endregion
 

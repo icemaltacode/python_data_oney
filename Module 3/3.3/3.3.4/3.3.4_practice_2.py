@@ -19,7 +19,7 @@ sales is available and pandas is imported as pd.
 
 # region setup
 import pandas as pd
-sales = pd.read_csv('Module 8/data/sales_subset.csv')
+sales = pd.read_csv('Module 3/data/sales_subset.csv')
 # endregion
 
 ## ---- START HERE ----

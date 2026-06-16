@@ -11,7 +11,7 @@ cities around the world. pandas is loaded as pd.
 
 # region setup
 import pandas as pd
-temperatures = pd.read_csv('Module 8/data/temperatures.csv', index_col=0)
+temperatures = pd.read_csv('Module 3/data/temperatures.csv', index_col=0)
 # endregion
 
 ## ---- START HERE ----

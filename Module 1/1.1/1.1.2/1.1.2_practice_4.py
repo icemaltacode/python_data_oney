@@ -13,9 +13,9 @@ baseball is available as a regular list of lists and updated is available as 2D 
 # region setup
 import pandas as pd
 import numpy as np
-baseball = pd.read_csv("Module 4/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy().tolist()
+baseball = pd.read_csv("Module 1/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy().tolist()
 n = len(baseball)
-updated = np.array(pd.read_csv("Module 4/data/update.csv", header = None))
+updated = np.array(pd.read_csv("Module 1/data/update.csv", header = None))
 import numpy as np
 # endregion
 

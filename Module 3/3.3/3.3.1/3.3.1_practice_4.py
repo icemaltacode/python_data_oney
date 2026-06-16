@@ -14,7 +14,7 @@ pandas is loaded as pd.
 
 # region setup
 import pandas as pd
-sales = pd.read_csv('Module 8/data/sales_subset.csv')
+sales = pd.read_csv('Module 3/data/sales_subset.csv')
 sales_1_1 = sales.query("department == 1 & store == 1")
 # endregion
 

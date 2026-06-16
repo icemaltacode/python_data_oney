@@ -14,7 +14,7 @@ Can you finish the job? np_baseball is available.
 
 # region setup
 import pandas as pd
-np_baseball = pd.read_csv("Module 4/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy()
+np_baseball = pd.read_csv("Module 1/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy()
 import numpy as np
 # endregion
 

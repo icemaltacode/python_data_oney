@@ -22,7 +22,7 @@ import pandas as pd
 import numpy as np
 from openpyxl import Workbook
 
-data = pd.read_csv("Module 4/data/baseball.csv")[["Name", "Height", "Weight", "Age"]]
+data = pd.read_csv("Module 1/data/baseball.csv")[["Name", "Height", "Weight", "Age"]]
 
 wb = Workbook()
 ws = wb.active

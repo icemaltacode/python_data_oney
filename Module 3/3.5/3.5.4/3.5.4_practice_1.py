@@ -18,7 +18,7 @@ import pandas as pd
 
 ## ---- START HERE ----
 
-# Read the CSV file "Module 8/data/airline_bumping.csv" and store it as a 
+# Read the CSV file "Module 3/data/airline_bumping.csv" and store it as a 
 # DataFrame called airline_bumping.
 airline_bumping = ____
 

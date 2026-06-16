@@ -12,7 +12,7 @@ Store the data as a 2D array to unlock numpy's extra functionality.
 
 # region setup
 import pandas as pd
-baseball = pd.read_csv("Module 4/data/baseball.csv")[['Height', 'Weight']].to_numpy().tolist()
+baseball = pd.read_csv("Module 1/data/baseball.csv")[['Height', 'Weight']].to_numpy().tolist()
 import numpy as np
 # endregion
 

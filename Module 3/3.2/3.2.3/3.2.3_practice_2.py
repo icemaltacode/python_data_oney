@@ -12,7 +12,7 @@ individuals per 10,000 people in the state?" Combine your new pandas skills to f
 
 # region setup
 import pandas as pd
-homelessness = pd.read_csv('Module 8/data/homelessness.csv')
+homelessness = pd.read_csv('Module 3/data/homelessness.csv')
 # endregion
 
 ## ---- START HERE ----

@@ -15,7 +15,7 @@ np_baseball is available.
 
 # region setup
 import pandas as pd
-np_baseball = pd.read_csv("Module 4/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy()
+np_baseball = pd.read_csv("Module 1/data/baseball.csv")[['Height', 'Weight', 'Age']].to_numpy()
 np_baseball[slice(0, 1015, 50), 0] = np_baseball[slice(0, 1015, 50), 0]*1000
 import numpy as np
 # endregion

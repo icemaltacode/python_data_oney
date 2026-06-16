@@ -18,7 +18,7 @@ homelessness is available and pandas is loaded as pd.
 
 # region setup
 import pandas as pd
-homelessness = pd.read_csv('Module 8/data/homelessness.csv')
+homelessness = pd.read_csv('Module 3/data/homelessness.csv')
 # endregion
 
 canu = ["California", "Arizona", "Nevada", "Utah"]

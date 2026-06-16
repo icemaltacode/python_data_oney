@@ -17,7 +17,7 @@ contains only sales from 2016, is available.
 # region setup
 import pandas as pd
 import matplotlib.pyplot as plt
-avocados_2016 = pd.read_pickle('Module 8/data/avocados_2016.pkl')
+avocados_2016 = pd.read_pickle('Module 3/data/avocados_2016.pkl')
 # endregion
 
 # Import matplotlib.pyplot with alias plt

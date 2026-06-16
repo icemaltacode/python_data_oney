@@ -25,7 +25,7 @@ Bangladesh 	    Dhaka 	    25.905 	25.931 	26.095 	… 	26.587
 
 # region setup
 import pandas as pd
-temperatures = pd.read_csv('Module 8/data/temperatures.csv', index_col=0, parse_dates=["date"])
+temperatures = pd.read_csv('Module 3/data/temperatures.csv', index_col=0, parse_dates=["date"])
 temperatures['date'] = pd.to_datetime(temperatures.date)
 temperatures["year"] = temperatures["date"].dt.year
 temp_by_country_city_vs_year = temperatures.pivot_table("avg_temp_c", index = ["country", "city"], columns = "year")

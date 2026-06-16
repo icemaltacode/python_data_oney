@@ -21,7 +21,7 @@ The avocados_2016 dataset is available.
 # region setup
 import pandas as pd
 import matplotlib.pyplot as plt
-avocados_2016 = pd.read_pickle('Module 8/data/avocados_2016.pkl')
+avocados_2016 = pd.read_pickle('Module 3/data/avocados_2016.pkl')
 # endregion
 
 # A list has been created, cols_with_missing, containing the names of columns with missing 

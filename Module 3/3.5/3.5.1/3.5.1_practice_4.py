@@ -12,7 +12,7 @@ matplotlib.pyplot has been imported as plt and pandas has been imported as pd.
 # region setup
 import pandas as pd
 import matplotlib.pyplot as plt
-avocados = pd.read_pickle('Module 8/data/avoplotto.pkl')
+avocados = pd.read_pickle('Module 3/data/avoplotto.pkl')
 # endregion
 
 ## ---- START HERE ----

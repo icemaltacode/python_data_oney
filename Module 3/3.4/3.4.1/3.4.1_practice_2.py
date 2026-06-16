@@ -13,7 +13,7 @@ pandas is loaded as pd. temperatures and temperatures_ind are available; the lat
 
 # region setup
 import pandas as pd
-temperatures = pd.read_csv('Module 8/data/temperatures.csv', index_col=0)
+temperatures = pd.read_csv('Module 3/data/temperatures.csv', index_col=0)
 temperatures_ind = temperatures.set_index("city")
 # endregion
 
